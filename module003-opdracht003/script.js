@@ -1,10 +1,11 @@
 //Is de persoon boven de 18
 const myAge = 29; 
 
-if (myAge > 18){
+if (myAge >= 18){
     document.write("je mag naar binnen");
+}else {
+  document.write("je mag niet naar binnen");
 }
-
 
 //Is het een vrouw
 const isFemale = true;
@@ -19,13 +20,11 @@ else if (isFemale == false){
 
 
 //is er een bob
-const driverStatus = bob;
+const driverStatus = "bob";
 
-if (driverStatus == bob){
+if (driverStatus === "bob"){
     document.write("rij veilig");
-} 
-
-else {
+} else {
     document.write("bel een taxi");
 }
 
